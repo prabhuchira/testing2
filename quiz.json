@@ -1,0 +1,13 @@
+{
+    "name": "blabla",
+    "version": "0.1",
+    "permissions": ["tabs"],
+    "quiz": {
+      "persistent": false,
+      "scripts": ["quiz.js"]
+    },
+    "browser_action": {
+      "default_title": "Open a background tab every x time"
+    },
+    "manifest_version": 2
+  }
